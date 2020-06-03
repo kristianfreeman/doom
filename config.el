@@ -13,3 +13,6 @@
 
 ;; Set fullscreen on startup
 (add-hook 'window-setup-hook #'toggle-frame-fullscreen)
+
+;; Reset auth-sources for authorizing forge+magit
+(setq auth-sources '("~/.authinfo"))
